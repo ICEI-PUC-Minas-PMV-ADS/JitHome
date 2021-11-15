@@ -1,0 +1,42 @@
+.error {
+  color: red;
+}
+.myHeader {
+  width: 99.2vw;
+  height: 100vh;
+}
+.navbar-brand {
+  color: white;
+  text-shadow: rgb(10, 10, 248) 1.5px 1.5px;
+  padding-left: 5px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: right;
+}
+#myIcon
+{
+  font-size: 2.5em;
+  text-decoration: none;
+  color: white;
+}
+.footer {
+  color: antiquewhite;
+}
+.footer p {
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+#myCard, #myCardHeader
+{
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+#myCard, #myCardFooter
+{
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+#formMessage {
+  color: red;
+}

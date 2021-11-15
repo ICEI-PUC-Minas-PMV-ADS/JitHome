@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Booststrap css -->
+    <link rel="stylesheet" href="node_modules/bootswatch/dist/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>JitResidencial</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <!-- Menu de navegação -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">J.I.T. Residencial</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger d-none" href="#">Home
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger d-none" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  js-scroll-trigger d-none" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger d-none" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">alexsgaldino</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item js-scroll-trigger" href="cadastro.html">Nova Conta</a>
+                            <a class="dropdown-item js-scroll-trigger" href="login.html">Trocar de Conta</a>
+                            <a class="dropdown-item js-scroll-trigger d-none" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item js-scroll-triggerd-none" href="index.html">Sair</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Menu de navegação -->
+    </nav>
+    <header class="myHeader active ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 mt-3">
+                    <div id="myCard" class=" card mb-3 text-white d-none d-lg-block">
+                        <div id="myCardHeader" class="card-header bg-dark ">
+                            <div class="d-block text-center align-self-center pt-3">
+                                <a class="">
+                                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R"
+                                        name="aboutme" width="120" height="120" class=" rounded-circle">
+                                </a>
+                                <div class="h4 text-center mb-3">
+                                    alexsgaldino
+                                </div>
+                            </div>
+                        </div>
+                        <div id="myCardBody" class="card-body bg-light text-black">
+                            <div class="h7 text-bold pb-1">
+                                <b>Nome:</b> Miracles Lee Cross</div>
+                                <div class="h7">
+                                    Developer of web applications, JavaScript, PHP, Java, Python, Ruby, Java, Node.js, etc.
+                            </div>
+                        </div>
+                        <div id="myCardFooter" class="card-body bg-dark ">
+                            <ul class="list-group list-group-flush ">
+                                <li class="list-group-item bg-dark ">
+                                    <div class="row text-white">
+                                        <div class="col-6 text-center border-right ">
+                                            <div class="h5">
+                                                36
+                                            </div>
+                                            <div class="h5">
+                                                Produtos Cadastrados
+                                            </div>
+                                        </div>
+                                        <div class="col-6 text-center">
+                                            <div class="h5">
+                                                87
+                                            </div>
+                                            <div class="h5 ">
+                                                Compras realizadas
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 mt-3">
+                    <div id="myCard" class=" card mb-3 text-white">
+                        <div id="myCardHeader" class="card-header bg-dark ">
+                            <div class="d-block text-center align-self-center pt-3">
+                                <h4>Altere seus dados ou troque sua senha</h4>
+                            </div>
+                        </div>
+                        <div id="myCardBody" class="card-body bg-light text-black">
+                            <div class="row  ">
+                                <div class="col-lg-2 col-sm-3 mt-md-2">
+                                    <label class="form-label ">Usario Login</label>
+                                    <input type="text" class="form-control" formControlName="usuarioLogin" required>
+                                </div>
+                                <div class="col-lg-3 col-sm-3 mt-md-2">
+                                    <label class="form-label">Primeiro Nome</label>
+                                    <input type="text" class="form-control" formControlName="primeiroNome" required>
+                                </div>
+                                <div class="col-lg-7 col-sm-6 mt-md-2 ">
+                                    <label class="form-label">Sobrenome</label>
+                                    <input type="text" class="form-control" formControlName="sobrenome" required>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-3 mt-md-2">
+                                    <label class="form-label">Telefone</label>
+                                    <input type="text" class="form-control" formControlName="telefone" placeholder="(00) 9000-0000" required>
+                                </div>
+                                <div class="col-lg-7 col-sm-6 mt-md-2">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" class="form-control" formControlName="email" required>
+                                </div>
+                                <div class="col-lg-3 col-sm-3 mt-md-2">
+                                    <label class="form-label">CEP</label>
+                                    <input type="Text" class="form-control" formControlName="CEP" placeholder="00.000-000"required>
+                                </div>
+
+                                <div class="col-lg-5 col-sm-5 mt-md-2" >
+                                    <label class="form-label">Rua</label>
+                                    <input type="text" class="form-control" formControlName="rua"required>
+                                </div>
+                                <div class="col-lg-2 col-sm-2 mt-md-2">
+                                    <label class="form-label">Número</label>
+                                    <input type="text" class="form-control" formControlName="numero" required>
+                                </div>
+                                <div class="col-lg-5 col-sm-5 mt-md-2">
+                                    <label class="form-label">Complemento</label>
+                                    <input type="Text" class="form-control" formControlName="Complemento"required>
+                                </div>
+
+                                <div class="col-lg-5 col-sm-5 mt-md-2">
+                                    <label class="form-label">Bairro</label>
+                                    <input type="text" class="form-control" formControlName="bairro"required>
+                                </div>
+                                <div class="col-lg-5 col-sm-5 mt-md-2">
+                                    <label class="form-label">Cidade</label>
+                                    <input type="text" class="form-control" formControlName="cidade" required>
+                                </div>
+                                <div class="col-lg-2 col-sm-2 mt-md-2">
+                                    <label class="form-label">UF</label>
+                                    <input type="Text" class="form-control" formControlName="uf"required>
+                                </div>
+                            </div>
+                            <div class="row  mt-md-2">
+                                <div class="">
+                                    <label class="form-label">Sobre mim</label>
+                                    <textarea type="text" class="form-control" formControlName="sobremim" required></textarea>
+                                </div>
+                             </div>
+                            <div class="row mt-2">
+                                <div class="d-grid gap-2 d-flex justify-content-end">
+                                    <button class="btn btn-outline-danger " (click)="resetForm($event)">
+                                        Cancelar Alteração
+                                    </button>
+                                    <button class="btn btn-outline-primary" [disabled]="!form!.valid">
+                                        <span class=" mr-auto"></span>
+                                            Salvar Alteração
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="myCardFooter" class="card-footer bg-dark text-white">
+                            <div class="row mt-lg-2">
+                                <div class="d-flex align-items-center ">
+                                    <h5 class="pt-2">Mudar Senha:</h5>
+                                    <div class="p-2 mt-1">
+                                      Caso deseje mudar de senha, preencha os campos abaixo:
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-lg-2">
+                                <div class=" col-lg-6 col-sm-5 ">
+                                    <label class="form-label">Senha</label>
+                                    <input type="password" class="form-control" formControlName="senha" required>
+                                </div>
+                                <div class=" col-lg-6 col-sm-5 ">
+                                    <label label class="form-label">Confirmar Senha</label>
+                                    <input type="password" class="form-control" formControlName="confirmarSenha">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer bg-dark ">
+        <div class="container">
+            <p>Todos os direitos reservados</p>
+        </div>
+    </footer>
+    
+    <!-- jquerey Javascript -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    
+
+    
+    
+    <!-- Booststrap Javascript -->
+    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js">
+    </script>
+    
+    <script defer src="/node_modules/@fortawesome/fontawesome-free/js/brands.min.js"></script>
+    <script defer src="/node_modules/@fortawesome/fontawesome-free/js/solid.min.js"></script>
+    <script defer src="/node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js"></script>
+</nav>

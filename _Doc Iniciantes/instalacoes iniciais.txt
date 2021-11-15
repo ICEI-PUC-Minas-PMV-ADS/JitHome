@@ -1,0 +1,9 @@
+VSCODE - Editor de Textp
+NODE - Plataforma suporte
+
+no VSCODE
+npm init                - cria arquivo de configuração
+npm install bootstrap   - instalação do bootstrap
+npm install jquery      - instalação do jquery
+npm i                   - restaura instalação
+

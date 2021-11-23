@@ -1,0 +1,36 @@
+{
+  "name": "jithome",
+  "version": "1.0.0",
+  "description": "JitResidencial Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ICEI-PUC-Minas-PMV-ADS/Jithome.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "css",
+    "js",
+    "html",
+    "JitResidencial"
+  ],
+  "author": "Grupo 4 PucMinas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ICEI-PUC-Minas-PMV-ADS/Jithome/issues"
+  },
+  "homepage": "https://github.com/ICEI-PUC-Minas-PMV-ADS/Jithome#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "ajax": "^0.0.4",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.0",
+    "bootswatch": "^5.1.3",
+    "jquery": "^3.6.0",
+    "jquery-validation": "^1.19.3",
+    "popper.js": "^1.16.1"
+  }
+}

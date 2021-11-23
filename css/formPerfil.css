@@ -28,7 +28,7 @@
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
 }
-#myCard, #myCardFooter
+#myCard, #myCardFooter, #myCardBodyPerfil 
 {
   border-bottom-left-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
@@ -78,7 +78,7 @@
 @media screen and (min-width: 1200px){
   .myHeader {
     width: 100%;
-    height: 86.3vh;
+    height: 100vh;
   }
   #myDivImg
   {

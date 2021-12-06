@@ -1,8 +1,7 @@
 # JUST IN TIME RESIDENCIAL
 <h1>Video Apresentação da Solução</h1>
 
-<img src="https://i9.ytimg.com/vi/phqgfrPC1aA/mq2.jpg?sqp=CLCluI0G&rs=AOn4CLDlC_5I-jgsM-yX0QCALIgjgnvklQ" width="50%">
-ACESSE AQUI: https://youtu.be/phqgfrPC1aA
+[![Watch the video](https://user-images.githubusercontent.com/78277341/144858522-853b62ba-9571-4c95-8b08-f3c2df5b85b9.png)](https://www.youtube.com/watch?v=phqgfrPC1aA)
 
 <h2>Análise e desenvolvimento de sistemas</h2>
 
